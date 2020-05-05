@@ -2,7 +2,7 @@
         .then(r => r.json())
         .then(weather => {
             document.getElementById('weather').innerHTML = `
-            <h1>${weather.id}</h1>
+            <h1>${weather.temperature.getElementById('')}</h1>
             `
         })
         .catch(e => console.log(e))

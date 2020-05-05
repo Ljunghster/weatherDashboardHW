@@ -1,1 +1,2 @@
 # weatherDashboardHW
+I do not understand how to connect the API to a search, nor do I know which API on the given page to use in order to use it without providing a specific city ID in the URL for the API. I have spent most my time sitting here trying to figure this out. All I have is a broken console log, a useless text input, and a little extra unhelpful HTML. How do I connect a search to an API or, well, anything?
