@@ -8,12 +8,21 @@
     <link rel="stylesheet" href="weather.css">
 </head>
 <body>
-
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Topographic_map">Topographic Maps</a>
+          <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Climate">Climate</a>
+          <a class="dropdown-item" href="https://en.wikipedia.org/wiki/Geology">Geology</a>
+        </div>
+      </div>
         <div class="input-group flex-nowrap">
             <div class="input-group-prepend">
-                <span class="input-group-text" id="addon-wrapping">City name</span>
+                <span class="input-group-text" id="addon-wrapping">Weather</span>
             </div>
-            <input type="text" class="form-control" placeholder="Weather" aria-label="Weather" aria-describedby="addon-wrapping">
+            <input type="text" class="form-control" placeholder="City Name" id="cityName" aria-label="Weather" aria-describedby="addon-wrapping">
         </div>
         <div id="weather"></div>
     
